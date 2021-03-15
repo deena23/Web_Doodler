@@ -1,0 +1,23 @@
+h1{
+    color: rgba(12, 184, 182, 0.91);
+}
+button{
+    margin-top: 20px;
+    height: 30px;
+    width:180px;
+    padding: 5px;
+    background: rgba(12, 184, 182, 0.91);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+select{
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}

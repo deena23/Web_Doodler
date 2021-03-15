@@ -1,0 +1,36 @@
+CREATE TABLE doctorfind (
+    Name varchar(255),
+    Domain varchar(255),
+    Address varchar(255),
+    Phone varchar(255),
+    Hospital varchar(255)
+);
+
+CREATE TABLE retrieve (
+    Name varchar(255),
+    Test varchar(255),
+    Disease varchar(255),
+    Phone varchar(255),
+    Hospital varchar(255)
+);
+
+
+INSERT INTO  retrieve(Name, Test,Disease,Phone,Hospital)
+VALUES ('Senthuiran','-Ve','HIV','9384581143','SRM');
+
+
+INSERT INTO  retrieve(Name, Test,Disease,Phone,Hospital)
+VALUES ('Mouli','NILL','Sugar','9384581143','Appollo');
+
+
+INSERT INTO  retrieve(Name, Test,Disease,Phone,Hospital)
+VALUES ('Deepak','NILL','Sugar','9384581143','MGR');
+
+
+
+INSERT INTO  retrieve(Name, Test,Disease,Phone,Hospital)
+VALUES ('Deena','High','BP','9384581143','SRM');
+
+
+INSERT INTO  retrieve(Name, Test,Disease,Phone,Hospital)
+VALUES ('Bharath','-Ve','TB','9384581143','Appollo');
